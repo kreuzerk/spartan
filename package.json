@@ -2,9 +2,15 @@
   "name": "spartan",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve --project analog-trpc"
+  },
   "private": true,
   "dependencies": {
+    "@analogjs/content": "0.1.9",
+    "@analogjs/platform": "^0.2.0-beta.3",
+    "@analogjs/router": "0.1.0-alpha.10",
+    "@analogjs/vite-plugin-angular": "^0.2.0-beta.3",
     "@angular/animations": "~15.2.0",
     "@angular/common": "~15.2.0",
     "@angular/compiler": "~15.2.0",
@@ -12,8 +18,12 @@
     "@angular/forms": "~15.2.0",
     "@angular/platform-browser": "~15.2.0",
     "@angular/platform-browser-dynamic": "~15.2.0",
+    "@angular/platform-server": "^15.0.0",
     "@angular/router": "~15.2.0",
     "@nx/angular": "16.0.0",
+    "front-matter": "^4.0.2",
+    "marked": "^4.2.12",
+    "prismjs": "^1.29.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -28,6 +38,7 @@
     "@angular/cli": "~15.2.0",
     "@angular/compiler-cli": "~15.2.0",
     "@angular/language-service": "~15.2.0",
+    "@nrwl/vite": "^15.7.0",
     "@nx/cypress": "16.0.0",
     "@nx/eslint-plugin": "16.0.0",
     "@nx/jest": "16.0.0",
@@ -40,6 +51,7 @@
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
+    "autoprefixer": "^10.4.14",
     "cypress": "^12.2.0",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
@@ -47,10 +59,16 @@
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
     "jest-preset-angular": "~13.0.0",
+    "jsdom": "^20.0.0",
     "nx": "16.0.0",
+    "postcss": "^8.4.23",
     "prettier": "^2.6.2",
+    "tailwindcss": "^3.3.2",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
-    "typescript": "~4.9.5"
+    "typescript": "~4.9.5",
+    "vite": "^4.0.3",
+    "vite-tsconfig-paths": "^4.0.2",
+    "vitest": "^0.25.8"
   }
 }
